@@ -2,7 +2,7 @@ var express = require('express'),
     bodyParser = require('body-parser'),
     mongoose = require('mongoose');
 
-var Promotions = require('../mondels/promotions');
+var Promotions = require('../models/promotions');
 
 var promoRouter = express.Router();
 promoRouter.use(bodyParser.json());
